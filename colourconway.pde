@@ -3,9 +3,9 @@ int[][] durs;
 int unit;
 
 void setup() {
-  frameRate(10);
-  unit = 10;
-  size(1500, 800);
+  //frameRate(10);
+  unit = 4;
+  size(1280, 720);
   old = new Boolean[(int)(width / unit)][(int)(height / unit)];
   grid = new Boolean[(int)(width / unit)][(int)(height / unit)];
   durs = new int[(int)(width / unit)][(int)(height / unit)];
@@ -80,4 +80,5 @@ void draw() {
       }
     }
   }
+  
 }
